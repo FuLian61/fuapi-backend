@@ -1,5 +1,4 @@
-package com.yupi.project.service;
-
+package com.yupi.fuapicommon.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.yupi.fuapicommon.model.entity.UserInterfaceInfo;
@@ -9,9 +8,7 @@ import com.yupi.fuapicommon.model.entity.UserInterfaceInfo;
 * @description 针对表【user_interface_info(用户调用接口关系表)】的数据库操作Service
 * @createDate 2024-04-14 10:32:37
 */
-public interface UserInterfaceInfoService extends IService<UserInterfaceInfo> {
-
-    void validUserInterfaceInfo(UserInterfaceInfo userInterfaceInfo, boolean b);
+public interface InnerUserInterfaceInfoService {
 
     /**
      * 调用接口统计
